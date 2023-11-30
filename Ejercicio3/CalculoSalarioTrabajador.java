@@ -6,7 +6,7 @@ public class CalculoSalarioTrabajador {
     
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        //Nota: Se han asumido que tanto las horas trabajadas como la tarifa del trabajador podrían ser números no enteros
+        //Nota: Se han asumido que tanto las horas trabajadas como la tarifa del trabajador podrían ser números no enteros.
         double horasTrabajadas=leerHorasTrabajadas(scanner);
         double tarifa=leerTarifa(scanner);
         scanner.close();
